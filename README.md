@@ -32,7 +32,7 @@ The repository is organized as follows:
 - `Simulations_allee.ipynb`  
   Jupyter notebook illustrating example simulations of the Allee model. This notebook reproduces key results of the study, including the emergence of irregular clusters, persistence–extinction transitions, and the dependence of spatial structure on precipitation intermittency.
 
-  - `Simulations_logistic.ipynb`  
+- `Simulations_logistic.ipynb`  
   Jupyter notebook illustrating example simulations of the Allee model. This notebook reproduces key results of the study, including the emergence of irregular clusters, persistence–extinction transitions, and the dependence of spatial structure on precipitation intermittency.
 
 - `Image_processing.ipynb`  
