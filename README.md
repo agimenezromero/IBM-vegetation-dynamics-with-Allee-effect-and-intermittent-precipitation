@@ -24,10 +24,16 @@ The code implements a **spatially explicit, stochastic individual-based model (I
 The repository is organized as follows:
 
 - `IBM_Allee_lib.jl`  
-  Julia library implementing the core individual-based model, including birth–death dynamics, spatial interactions, environmental switching, and data collection routines.
+  Julia library implementing the core individual-based model with allee effect, including birth–death dynamics, spatial interactions, environmental switching, and data collection routines.
+  
+  - `IBM_logistic_lib.jl`  
+  Julia library implementing the core individual-based losgistic model, including birth–death dynamics, spatial interactions, environmental switching, and data collection routines.
 
-- `Simulations.ipynb`  
-  Jupyter notebook illustrating example simulations of the model. This notebook reproduces key results of the study, including the emergence of irregular clusters, persistence–extinction transitions, and the dependence of spatial structure on precipitation intermittency.
+- `Simulations_allee.ipynb`  
+  Jupyter notebook illustrating example simulations of the Allee model. This notebook reproduces key results of the study, including the emergence of irregular clusters, persistence–extinction transitions, and the dependence of spatial structure on precipitation intermittency.
+
+  - `Simulations_logistic.ipynb`  
+  Jupyter notebook illustrating example simulations of the Allee model. This notebook reproduces key results of the study, including the emergence of irregular clusters, persistence–extinction transitions, and the dependence of spatial structure on precipitation intermittency.
 
 - `Image_processing.ipynb`  
   Jupyter notebook demonstrating how spatial statistics derived from the model can be compared with those extracted from vegetation images. This includes preprocessing of binary vegetation maps and the computation of pair-correlation functions for empirical–model comparison.
