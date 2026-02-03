@@ -51,7 +51,7 @@ The repository is organized as follows:
 ## Usage
 
 1. Load or include `IBM_Allee_lib.jl` in your Julia environment to access the model functions.  
-2. Run `Simulations.ipynb` to explore the behavior of the model under different environmental regimes and parameter values.  
+2. Run `Simulations_allee.ipynb` to explore the behavior of the model under different environmental regimes and parameter values.  
 3. Use `Image_processing.ipynb` to compare model-generated patterns with vegetation spatial data.
 
 ---
