@@ -26,7 +26,7 @@ The repository is organized as follows:
 - `IBM_Allee_lib.jl`  
   Julia library implementing the core individual-based model with allee effect, including birth–death dynamics, spatial interactions, environmental switching, and data collection routines.
   
-  - `IBM_logistic_lib.jl`  
+- `IBM_logistic_lib.jl`
   Julia library implementing the core individual-based losgistic model, including birth–death dynamics, spatial interactions, environmental switching, and data collection routines.
 
 - `Simulations_allee.ipynb`  
